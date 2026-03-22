@@ -110,6 +110,20 @@ src/
 
 ---
 
+📸 Output Preview:
+
+Product Card UI with stock status
+Library system with search & CRUD functionality
+Person hierarchy demonstrating OOP concepts
+
+📚 Learning Outcomes:
+
+Building reusable React components
+Managing application state using hooks
+Implementing real-world UI features
+Applying OOP concepts in JavaScript
+Structuring scalable React applications
+
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
@@ -121,18 +135,6 @@ cd react-experiments
 Install dependencies:
 npm install
 
-📸 Output Preview
-Product Card UI with stock status
-Library system with search & CRUD functionality
-Person hierarchy demonstrating OOP concepts
-📚 Learning Outcomes
 
-Through this project, the following skills are developed:
-
-Building reusable React components
-Managing application state using hooks
-Implementing real-world UI features
-Applying OOP concepts in JavaScript
-Structuring scalable React applications
 Run the project:
 npm run dev
