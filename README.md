@@ -1,18 +1,124 @@
-# React + Vite
+# 🚀 React Front-End Experiments Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a collection of front-end experiments built using **React.js**, focusing on reusable components, state management, and object-oriented programming concepts.
 
-Currently, two official plugins are available:
+It demonstrates practical implementation of core concepts such as **props, hooks, conditional rendering, and class-based inheritance**, all within a single scalable application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Course Outcomes Covered
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **CO1**: Understanding fundamental concepts of front-end development using HTML, CSS, JavaScript, and React.js  
+- **CO2**: Developing interactive and responsive UI applications using React components and hooks  
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧪 Experiments Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🔹 Experiment 3.1 – ProductCard Component
+
+#### 🎯 Aim
+To create a reusable ProductCard component that displays product information using React props.
+
+#### ⚙️ Features
+- Reusable component design
+- Dynamic data using props
+- Conditional rendering for stock status
+- Responsive card UI
+
+#### 🧠 Concepts Used
+- Props
+- Component reusability
+- Conditional styling
+
+---
+
+### 🔹 Experiment 3.2 – Library Management UI
+
+#### 🎯 Aim
+To build a library management system with book search, add, and remove functionality.
+
+#### ⚙️ Features
+- Add new books
+- Search books by title/author
+- Remove books dynamically
+- Responsive UI design
+
+#### 🧠 Concepts Used
+- React Hooks (`useState`)
+- Event handling
+- Filtering & dynamic rendering
+
+---
+
+### 🔹 Experiment 3.3 – Person Class Hierarchy
+
+#### 🎯 Aim
+To implement a class hierarchy with inheritance for Person, Student, and Teacher entities.
+
+#### ⚙️ Features
+- Base class `Person`
+- Derived classes `Student` and `Teacher`
+- Method overriding
+- Polymorphism demonstration
+- Rendering class objects in UI
+
+#### 🧠 Concepts Used
+- OOP in JavaScript
+- Inheritance
+- Polymorphism
+- Method overriding
+
+---
+
+## 🏗️ Project Structure
+
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── ProductCard.jsx
+│ ├── ProductSection.jsx
+│ ├── LibraryManagement.jsx
+│ ├── PersonHierarchy.jsx
+│ └── Footer.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+
+
+---
+
+## 🎨 UI Features
+
+- Clean and modern layout
+- Responsive design (mobile + desktop)
+- Sticky navigation bar
+- Section-based experiment navigation
+- Interactive UI elements
+
+---
+
+## ⚙️ Technologies Used
+
+- ⚛️ React.js
+- 🎨 CSS3
+- 🧠 JavaScript (ES6+)
+- 🧱 HTML5
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-experiments.git
+Navigate to project folder:
+cd react-experiments
+Install dependencies:
+npm install
+Run the project:
+npm run dev
